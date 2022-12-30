@@ -14,9 +14,28 @@ body {
 
 .container {
     background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
 }
 
 .img {
+    border-radius: 10px;
     display: inline-block;
-    width: 50%;
+   width: 50%;
+   text-align: center;
 }
+.img-container{
+    text-align: center;
+}
+  h1{
+    font-size: 1rem;
+    margin: 20px;
+}
+  p{
+    font-size: 0.5rem;
+   
+}
+ 
